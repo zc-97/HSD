@@ -35,7 +35,7 @@ def create_dataset(config):
     Returns:
         Dataset: Constructed dataset.
     """
-    dataset_module = importlib.import_module('dataset.dataset')
+    dataset_module = importlib.import_module('dataset')
     if hasattr(dataset_module, config['model'] + 'Dataset'):
         dataset_class = getattr(dataset_module, config['model'] + 'Dataset')
     else:
