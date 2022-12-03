@@ -1,6 +1,6 @@
-# Hierarchical Item Inconsistency Signal learning for Sequence Denoising in Sequential Recommendation
+# Hierarchical Item Inconsistency Signal Learning for Sequence Denoising in Sequential Recommendation
 ***
-PyTorch implementation of the paper "Hierarchical Item Inconsistency Signal learning for Sequence
+PyTorch implementation of the paper "Hierarchical Item Inconsistency Signal Learning for Sequence
 Denoising in Sequential Recommendation", CIKM.2022
 ***
 
