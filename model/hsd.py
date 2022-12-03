@@ -1,4 +1,4 @@
-from utils.utils import get_model
+from HsdUtils.utils import get_model
 import torch
 from torch import nn
 import torch.nn.functional as F
@@ -15,6 +15,7 @@ class HSD(SequentialRecommender):
         self.hidden_size = config['hidden_size']  # same as embedding_size
         self.our_ae_drop_out = config['our_ae_drop_out']
         self.our_att_drop_out = config['our_att_drop_out']
+        self.n_users = dataset.num(self.USER_ID)    # Compatible with the latest version of RecBole
 
         self.tau = 100
         self.filter_drop_rate = 0.0

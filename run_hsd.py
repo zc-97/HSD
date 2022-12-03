@@ -8,7 +8,7 @@ from recbole.data import create_dataset, data_preparation
 from model.hsd import HSD
 
 from Triainer.HsdTrainer import HsdTrainer
-from utils.utils import get_model, is_hsd_model
+from HsdUtils.utils import get_model, is_hsd_model
 
 lr_ = 1e-3
 data_augmentation = True
