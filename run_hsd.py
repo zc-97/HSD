@@ -4,7 +4,7 @@ import yaml
 from logging import getLogger
 from recbole.utils import init_logger, init_seed
 from recbole.config import Config
-from recbole.data import create_dataset, data_preparation
+from dataset.dataUtils import create_dataset, data_preparation
 from model.hsd import HSD
 
 from Triainer.HsdTrainer import HsdTrainer
